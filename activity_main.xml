@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Basic UI Control"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:id="@+id/txt1"
+        android:layout_marginTop="20dp"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/grey"
+        android:layout_marginTop="1dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your name"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:id="@+id/edt1"
+        android:layout_marginTop="20dp"/>
+
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        >
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            android:id="@+id/rd1"
+            android:layout_marginTop="10dp"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            android:id="@+id/rd2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            />
+
+
+    </RadioGroup>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/grey"
+        android:layout_marginTop="1dp"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Java"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:id="@+id/cb1"
+        />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Php"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:id="@+id/cb2"
+            />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Android"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:id="@+id/cb3"
+            />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="submit"
+        android:textSize="20dp"
+        android:id="@+id/btn"/>
+
+
+
+
+</LinearLayout>
